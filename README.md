@@ -1,0 +1,9 @@
+# Input-Maker
+Olympic Games Input Maker for Nationstates sports. Backed up in  case Free Republics delete the files.
+ou can use it in one of two ways. Either you can put entries in a file called entries.txt or you can send a custom file name as a command line argument.
+
+To use a custom file name, load the command prompt, navigate to the directory/folder where you have Input Maker saved and enter "inputmaker [filename]". Do not include the .txt part of the file name as the program adds that automatically. For example, if I saved entries in a file called snt.txt, I would send that file to Input Maker by typing "inputmaker snt" from the command line. This allows for quick adding of multiple entries.
+
+Another benefit of using the command line is that you will be able to see the output, in the event that the program detects an error with the signup (ie. a missing event header). If this happens, you will have to manually remove all of the entries up to that point in the signup.
+
+Signups need to be entered in a very specific format. Copy only the signup list out of a signup and make sure that the signup list resembles the Signup Creator format (ie. blank lines after each sport, but no blank lines between different events that fall under the same general heading). So, there should not be a blank line between swimming entries and synchronized swimming entries but there should be a blank line between entries for Aquatics and entries for Archery. Also note that there are potential complications if this is used for any multi-sport event other than the Winter or Summer Olympics, due to the second level sport headings being hard-coded into the program. Depending on the event list for a non-Olympic multi-sport tournament (or future changes to the Olympic event list), the program may require some minor modifications to work.
